@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="./show_data.html" method="get">
+        <fieldset> 
+            <legend>
+                Ejemplo de formulario
+            </legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="apellido" id="apellido" placeholder="miApellido">
+            
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" min="18">
+        </fieldset>
+        <fieldset>
+            <legend>Nivel de Educación</legend>
+
+            <label for="Primario">Primario</label>
+            <input type="radio" name="Educacion" value="Primario" id="Primario">
+
+            <label for="Secundario">Secundario</label>
+            <input type="radio" name="Educacion" value="Secundario" id="Secundario">
+
+            <label for="Terciario">Terciario</label>
+            <input type="radio" name="Educacion" value="Terciario" id="Terciario">
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies</legend>
+
+            <label for="Deportes">Deportes</label>
+            <input type="checkbox" value="Deportes" name="Hobbies" id="Deportes">
+
+            <label for="actividafisica">Actividad Fisica</label>
+            <input type="checkbox" value="actividadfisica" name="Hobbies" id="actividadfisica">
+
+            <label for="Videojuegos">Videojuegos</label>
+            <input type="checkbox" value="Videojuegos" name="Hobbies" id="Videojuegos">
+        </fieldset>
+    
+            <label for="pais">Pais de residencia</label>
+            <select name="pais" id="pais">
+                <option disabled selected value="">Seleccione un pais</option>
+                <option value="arg">Argentina</option>
+                <option value="br">Brasil</option>
+                <option value="chi">Chile</option>
+                <option value="uru">Uruguay</option>
+                <option value="col">Colombia</option>
+            </select>
+
+            <input type="submit" name="Enviar">
+     
+    </form>
+</body>
+</html>
