@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 1rem;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+form {
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+fieldset {
+    background-color: teal;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+legend {
+    padding: 0.2rem;
+}
